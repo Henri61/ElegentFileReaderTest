@@ -338,3 +338,4 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/ElegentFileReaderTest/TestFiles/Main model_Main Model - MCEV~control~cf.csv
