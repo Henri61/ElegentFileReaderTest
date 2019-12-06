@@ -1,0 +1,142 @@
+<assumptionset topmodelclassname="default1" topmodelname="default1">
+  <externalSources>
+    <externalSource name="795bdd78-b013-4962-8311-457b4e9c50c8" displayname="Excel File: Book1.xlsm (Sheet4)" location="C:\Users\JANAG644\RAFM\RiskAgility FM Project6\RiskAgility FM Project6\WorkingPath\Job 1 180519024218421\Input\T0\795bdd78-b013-4962-8311-457b4e9c50c8.tbl" originalLocation="C:\RiskAgility FM\Book1.xlsm" isComposite="false">
+      <externalSourceStructure hasColumnIndexHeaders="false" hasRowIndexHeaders="false" columnKeyNamesColumn="-1" rowKeyNamesRow="-1" numColumnKeys="0" numRowKeys="0" columnKeyValuesStartColumn="0" rowKeyValuesStartRow="0" valuesStartColumn="0" valuesStartRow="0" hasFinalRowUsePositionKey="true" hasFinalColumnUsePositionKey="true" />
+    </externalSource>
+  </externalSources>
+  <overlays />
+  <unused_models />
+  <inputVariables>
+    <inputVariable name="Input Page1.initial_variable" type="1">
+      <validation validationFailureBehavior="0" rangeFrom="0" rangeTo="100" />
+      <codeVariables>
+        <codeVariable name="initial_variable" modelObject="default1" modelClass="default1" />
+      </codeVariables>
+      <value>
+        <lookup externalSource="93c4b8a8-33d7-4a14-a779-0f40b705e548" hasColumnKeyNames="True" hasRowKeyNames="True">
+          <keys>
+            <key keyType="Column" externalSourceKey="" usePosition="False" type="2" missing="Error" beforeFirst="Error" afterLast="Error" lookupTermString="Constant: Viel Glück">
+              <value>
+                <constant>Viel Glück</constant>
+              </value>
+              <transformations />
+            </key>
+            <key keyType="Column" externalSourceKey="" usePosition="False" type="1" missing="Error" beforeFirst="Error" afterLast="Error" lookupTermString="Constant: 祝你好运">
+              <value>
+                <constant>祝你好运</constant>
+              </value>
+              <transformations />
+            </key>
+            <key keyType="Column" externalSourceKey="நல்ல அதிர்ஷ்டம்" usePosition="False" type="1" missing="ValueOf" beforeFirst="ValueOf" afterLast="ValueOf" lookupTermString="Input Variable: Input Page1: an_input_variable">
+              <value>
+                <inputVariable name="Input Page1.an_input_variable" />
+              </value>
+              <missingFallbackValue>
+                <constant>non-blank</constant>
+              </missingFallbackValue>
+              <beforeFirstFallbackValue>
+                <constant />
+              </beforeFirstFallbackValue>
+              <afterLastFallbackValue>
+                <constant>удачи</constant>
+              </afterLastFallbackValue>
+              <transformations />
+            </key>
+            <key keyType="Column" externalSourceKey="" usePosition="False" type="1" missing="RetryWith" beforeFirst="RetryWith" afterLast="RetryWith" lookupTermString="Code Variable: default1: a_code_variable">
+              <value>
+                <modelVariable modelObject="default1" variable="a_code_variable" />
+              </value>
+              <missingFallbackValue>
+                <constant>star wars</constant>
+              </missingFallbackValue>
+              <beforeFirstFallbackValue>
+                <constant />
+              </beforeFirstFallbackValue>
+              <afterLastFallbackValue>
+                <constant>सौभाग्य</constant>
+              </afterLastFallbackValue>
+              <transformations />
+            </key>
+            <key keyType="Column" externalSourceKey="" usePosition="False" type="1" missing="Previous" beforeFirst="Default" afterLast="Default" lookupTermString="Code Scalar: default1: a_scalar">
+              <value>
+                <modelScalar modelObject="default1" scalar="a_scalar" />
+              </value>
+              <transformations>
+                <transformation inputValue="โชคดี" transformedValue="chúc may mắn" />
+                <transformation inputValue="اچھی قسمت" transformedValue="اچھی قسمت" />
+                <transformation inputValue="iyi şanslar" transformedValue="good luck" />
+              </transformations>
+            </key>
+            <key keyType="Column" externalSourceKey="" usePosition="False" type="1" missing="Next" beforeFirst="First" afterLast="Last" lookupTermString="Code Column: default1: a_column">
+              <value>
+                <modelColumn modelObject="default1" column="a_column" />
+              </value>
+              <transformations />
+            </key>
+            <key keyType="Column" externalSourceKey="" usePosition="False" type="1" missing="Default" beforeFirst="Error" afterLast="Error" lookupTermString="System Variable: proj_task_loop_num">
+              <value>
+                <systemVariable name="proj_task_loop_num" />
+              </value>
+              <transformations />
+            </key>
+            <key keyType="Column" externalSourceKey="" usePosition="False" type="1" missing="Interpolate" beforeFirst="Error" afterLast="AddExcess" lookupTermString="Code Variable: a_code_variable">
+              <value>
+                <modelVariable modelObject="" variable="a_code_variable" />
+              </value>
+              <afterLastFallbackValue />
+              <transformations />
+            </key>
+            <key keyType="Row" externalSourceKey="" usePosition="True" type="1" missing="Error" beforeFirst="Error" afterLast="Error" lookupTermString="Constant: 15">
+              <value>
+                <constant>15</constant>
+              </value>
+              <transformations />
+            </key>
+          </keys>
+        </lookup>
+      </value>
+      <indexVariables default="" />
+    </inputVariable>
+  </inputVariables>
+  <product modelclassname="ProjectVariables" group="0" recno="0" readfile="0">
+    <individual />
+    <columns />
+    <filterset />
+    <default />
+    <overlays />
+    <non-default />
+    <models />
+  </product>
+  <product modelclassname="default1" group="0" recno="0" readfile="0">
+    <individual>
+      <model uniquename="default1" />
+    </individual>
+    <columns>
+      <column name="initial_formula" slide="0" />
+    </columns>
+    <filterset>
+      <model uniquename="default1" filtertype="1" />
+    </filterset>
+    <default>
+      <variable name="initial_variable" type="1" source="4">0</variable>
+    </default>
+    <overlays />
+    <ddf />
+    <models>
+      <model name="default1" uniquename="default1" type="StandAlone" isrebasesubmodel="N" isrebaseclone="N" outputtype="All" arraytotal="GroupTotals">
+        <inputmanagervariables>
+          <variable name="initial_variable" />
+        </inputmanagervariables>
+      </model>
+    </models>
+  </product>
+  <wildcard name="DEFAULT">
+    <keyword name="user_id">JANAG644</keyword>
+    <keyword name="project">RiskAgility FM Project6</keyword>
+    <keyword name="project_directory">C:\Users\JANAG644\RAFM\RiskAgility FM Project6\RiskAgility FM Project6\</keyword>
+    <keyword name="job_name">Job 1</keyword>
+    <keyword name="projection">Projection1</keyword>
+    <keyword name="column_output_directory">C:\Users\JANAG644\RAFM\RiskAgility FM Project6\RiskAgility FM Project6\output\Job 1\</keyword>
+  </wildcard>
+  <overrideValues />
+</assumptionset>

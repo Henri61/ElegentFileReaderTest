@@ -1,0 +1,86 @@
+﻿abc    d  ef    ghi   jkl  *
+   a  d  ef    ghi   jkl  *
+   abc    def    ghi   jkl  *
+abc d ef    ghi   jkl  *
+   a d ef    ghi   jkl  *
+   abc def ghi   jkl  *
+abc    de fg hi   jkl  *
+   a d  efghijkl
+   abc    d  ef    ghi   jkl  *
+
+* Projection:
+* Data File Tstamp: Tue Sep 12 2017 07:24:48
+
+top_model_class      control_liab
+cashflow_req      target_column
+from      0
+to      1200
+drill_wanted      n
+individual_file      
+choicelistcase      n
+use_overlay_code      N
+inforce_file_id      65d67b41-9f6d-45e8-84e9-32add411e70d
+data_location      <*project_directory*>apps\sumitomo\input\main\if_key_1_50_for_rio.xlsx
+product_position      0
+product_length      0
+group_position      0
+group_length      0
+recno_position      0
+recno_length      0
+auto_close      y
+pv_period      12
+discount_rate      
+num_of_layers      1
+column_dbf_from      0
+column_dbf_to      1200
+layer_offset      
+restore_variables      y
+model_capacity      1200
+lowest_period      0
+irr_wanted      n
+sliding_wanted      0
+sliding_file      
+maxslidingwindowsize      0
+retryslidingcount      0
+portfolio_loop_from         0
+portfolio_loop_to         0
+portfolio_pass_num         0
+num_of_scenarios      0
+first_proj_set_sub_loop      0
+last_proj_set_sub_loop      0
+num_of_proj_set_sub_loops      0
+overall_first_proj_set_sub_loop      0
+overall_last_proj_set_sub_loop      0
+overall_num_of_proj_set_sub_loops      0
+first_proj_set_loop      0
+last_proj_set_loop      0
+num_of_proj_set_loops      0
+overall_first_proj_set_loop      0
+overall_last_proj_set_loop      0
+overall_num_of_proj_set_loops      0
+rebase_submodels      n
+iteration_loop_run      y
+projection_loop_run      y
+max_iteration_length      1
+overall_first_proj_task_loop      1
+overall_last_proj_task_loop      1
+overall_num_of_proj_task_loops      1
+column_discount_flag      n
+validate_input_vars      n
+output_filename_prefix      Main model_Main Model - MCEV
+dependency_output      n
+profile_wanted      n
+check_rebasing      n
+trace_wanted      n
+show_temp_table      n
+accessed_files      n
+odometer      100
+parameter_file      F:\(Score)\Sprint 11\WriteAssumptionValues\Sumitomo\application_rio\MainVA_Eng\MainVA_Eng\WorkingPath\Job 58 170912092447\WD\T0\model.csv
+proj_set_loop_num      0
+scenario_pass_num      0
+proj_set_sub_loop_num      0
+model_file_base      F:\(Score)\Sprint 11\WriteAssumptionValues\Sumitomo\application_rio\MainVA_Eng\MainVA_Eng\output\Job 58\Main model_Main Model - MCEV.dbf
+wc_model_file_base      F:\(Score)\Sprint 11\WriteAssumptionValues\Sumitomo\application_rio\MainVA_Eng\MainVA_Eng\output\Job 58\Main model_Main Model - MCEV
+inforce_file      F:\(Score)\Sprint 11\WriteAssumptionValues\Sumitomo\application_rio\MainVA_Eng\MainVA_Eng\WorkingPath\Job 58 170912092447\Input\T0\65d67b41-9f6d-45e8-84e9-32add411e70d.tbl
+run_iterations      1-1
+run_projection_loops      1-1

@@ -1,0 +1,75 @@
+<assumptionset topmodelclassname="mc" topmodelname="mo">
+  <externalSources>
+    <externalSource name="b42b4a02-4120-4c80-8aec-0c0b4f15dea1" displayname="Excel File: Book1.xlsm (Sheet4)" location="C:\Users\JANAG644\RAFM\RiskAgility FM Project1\RiskAgility FM Project1\WorkingPath\Job 3 180525070257440\Input\T0\b42b4a02-4120-4c80-8aec-0c0b4f15dea1.tbl" originalLocation="C:\RiskAgility FM\Book1.xlsm" isComposite="false" />
+    <externalSource name="e887c0e9-5660-4ac6-8df9-621f76b6d98c" displayname="Excel File: Book1.xlsx (Sheet1)" location="C:\Users\JANAG644\RAFM\RiskAgility FM Project1\RiskAgility FM Project1\WorkingPath\Job 3 180525070257440\Input\T0\e887c0e9-5660-4ac6-8df9-621f76b6d98c.tbl" originalLocation="C:\RiskAgility FM\Book1.xlsx" isComposite="false" />
+  </externalSources>
+  <overlays />
+  <unused_models />
+  <inputVariables />
+  <product modelclassname="ProjectVariables" group="0" recno="0" readfile="0">
+    <individual />
+    <columns />
+    <filterset />
+    <default />
+    <overlays />
+    <non-default />
+    <models />
+  </product>
+  <product modelclassname="mc" group="0" recno="0" readfile="0">
+    <individual>
+      <model uniquename="mo" />
+    </individual>
+    <columns>
+      <column name="initial_formula" slide="0" />
+    </columns>
+    <filterset>
+      <model uniquename="mo" filtertype="1" />
+    </filterset>
+    <default>
+      <variable name="initial_variable" type="1" source="4">0</variable>
+    </default>
+    <overlays />
+    <ddf>
+      <variable name="initial_variable" fieldname="field1" uniquename="mo" />
+    </ddf>
+    <models>
+      <model name="mo" uniquename="mo" type="StandAlone" isrebasesubmodel="N" isrebaseclone="N" outputtype="All" arraytotal="GroupTotals">
+        <inputmanagervariables>
+          <variable name="initial_variable" />
+        </inputmanagervariables>
+      </model>
+    </models>
+  </product>
+  <product modelclassname="mc2" group="0" recno="0" readfile="0">
+    <individual />
+    <columns>
+      <column name="initial_formula" slide="0" />
+    </columns>
+    <filterset>
+      <model uniquename="mo|mo2" filtertype="2" />
+    </filterset>
+    <default>
+      <variable name="initial_variable" type="1" source="4">0</variable>
+    </default>
+    <overlays />
+    <ddf>
+      <variable name="initial_variable" fieldname="field2" uniquename="mo|mo2" />
+    </ddf>
+    <models>
+      <model name="mo2" uniquename="mo|mo2" type="StandAlone" isrebasesubmodel="N" isrebaseclone="N" outputtype="None" arraytotal="GroupTotals">
+        <inputmanagervariables>
+          <variable name="initial_variable" />
+        </inputmanagervariables>
+      </model>
+    </models>
+  </product>
+  <wildcard name="DEFAULT">
+    <keyword name="user_id">JANAG644</keyword>
+    <keyword name="project">RiskAgility FM Project1</keyword>
+    <keyword name="project_directory">C:\Users\JANAG644\RAFM\RiskAgility FM Project1\RiskAgility FM Project1\</keyword>
+    <keyword name="job_name">Job 3</keyword>
+    <keyword name="projection">Projection1</keyword>
+    <keyword name="column_output_directory">C:\Users\JANAG644\RAFM\RiskAgility FM Project1\RiskAgility FM Project1\output\Job 3\</keyword>
+  </wildcard>
+  <overrideValues />
+</assumptionset>

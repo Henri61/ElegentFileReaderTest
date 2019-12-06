@@ -1,0 +1,51 @@
+﻿<assumptionset topmodelclassname="default1" topmodelname="default1">
+  <externalSources>
+    <externalSource name="795bdd78-b013-4962-8311-457b4e9c50c8" displayname="Excel File: Book1.xlsm (Sheet4)" location="C:\Users\JANAG644\RAFM\RiskAgility FM Project6\RiskAgility FM Project6\WorkingPath\Job 1 180519024218421\Input\T0\795bdd78-b013-4962-8311-457b4e9c50c8.tbl" originalLocation="C:\RiskAgility FM\Book1.xlsm" isComposite="false">
+      <externalSourceStructure hasColumnIndexHeaders="false" hasRowIndexHeaders="false" columnKeyNamesColumn="-1" rowKeyNamesRow="catdog" numColumnKeys="0" numRowKeys="0" columnKeyValuesStartColumn="0" rowKeyValuesStartRow="0" valuesStartColumn="0" valuesStartRow="0" hasFinalRowUsePositionKey="true" hasFinalColumnUsePositionKey="true" />
+    </externalSource>
+  </externalSources>
+  <overlays />
+  <unused_models />
+  <inputVariables />
+  <product modelclassname="ProjectVariables" group="0" recno="0" readfile="0">
+    <individual />
+    <columns />
+    <filterset />
+    <default />
+    <overlays />
+    <non-default />
+    <models />
+  </product>
+  <product modelclassname="default1" group="0" recno="0" readfile="0">
+    <individual>
+      <model uniquename="default1" />
+    </individual>
+    <columns>
+      <column name="initial_formula" slide="0" />
+    </columns>
+    <filterset>
+      <model uniquename="default1" filtertype="1" />
+    </filterset>
+    <default>
+      <variable name="initial_variable" type="1" source="4">0</variable>
+    </default>
+    <overlays />
+    <ddf />
+    <models>
+      <model name="default1" uniquename="default1" type="StandAlone" isrebasesubmodel="N" isrebaseclone="N" outputtype="All" arraytotal="GroupTotals">
+        <inputmanagervariables>
+          <variable name="initial_variable" />
+        </inputmanagervariables>
+      </model>
+    </models>
+  </product>
+  <wildcard name="DEFAULT">
+    <keyword name="user_id">JANAG644</keyword>
+    <keyword name="project">RiskAgility FM Project6</keyword>
+    <keyword name="project_directory">C:\Users\JANAG644\RAFM\RiskAgility FM Project6\RiskAgility FM Project6\</keyword>
+    <keyword name="job_name">Job 1</keyword>
+    <keyword name="projection">Projection1</keyword>
+    <keyword name="column_output_directory">C:\Users\JANAG644\RAFM\RiskAgility FM Project6\RiskAgility FM Project6\output\Job 1\</keyword>
+  </wildcard>
+  <overrideValues />
+</assumptionset>

@@ -1,0 +1,183 @@
+<assumptionset topmodelclassname="default1" topmodelname="default1">
+  <externalSources>
+    <externalSource name="454dde6a-37a5-459c-bb57-5dc70fee3da6" displayname="Alpha" location="C:\Users\JANAG644\RAFM\RiskAgility FM Project2\RiskAgility FM Project2\WorkingPath\Job 2 180529032305810\Input\T0\454dde6a-37a5-459c-bb57-5dc70fee3da6.tbl" originalLocation="&lt;*project_directory*&gt;Inputs\Book1.xlsx" isComposite="false">
+      <externalSourceStructure hasColumnIndexHeaders="false" hasRowIndexHeaders="false" columnKeyNamesColumn="-1" rowKeyNamesRow="-1" numColumnKeys="0" numRowKeys="0" columnKeyValuesStartColumn="0" rowKeyValuesStartRow="0" valuesStartColumn="0" valuesStartRow="0" hasFinalRowUsePositionKey="true" hasFinalColumnUsePositionKey="true" />
+    </externalSource>
+    <externalSource name="b5eb1ec3-ebfd-4b4a-9407-00c22d4c451f" displayname="Beta" location="C:\Users\JANAG644\RAFM\RiskAgility FM Project2\RiskAgility FM Project2\WorkingPath\Job 2 180529032305810\Input\T0\b5eb1ec3-ebfd-4b4a-9407-00c22d4c451f.tbl" originalLocation="&lt;*project_directory*&gt;Inputs\Book1.xlsx" isComposite="false">
+      <externalSourceStructure hasColumnIndexHeaders="false" hasRowIndexHeaders="false" columnKeyNamesColumn="-1" rowKeyNamesRow="-1" numColumnKeys="0" numRowKeys="0" columnKeyValuesStartColumn="0" rowKeyValuesStartRow="0" valuesStartColumn="0" valuesStartRow="0" hasFinalRowUsePositionKey="true" hasFinalColumnUsePositionKey="true" />
+    </externalSource>
+    <externalSource name="e60f7b5a-da09-468e-82fb-c6f2c1480112" displayname="CES with uses position column key and no default ES" location="C:\Users\JANAG644\RAFM\RiskAgility FM Project2\RiskAgility FM Project2\WorkingPath\Job 2 180529032305810\Input\T0\e60f7b5a-da09-468e-82fb-c6f2c1480112.tbl" originalLocation="CES with uses position column key and no default ES" isComposite="true">
+      <externalSourceStructure hasColumnIndexHeaders="false" hasRowIndexHeaders="false" columnKeyNamesColumn="-1" rowKeyNamesRow="-1" numColumnKeys="0" numRowKeys="2" columnKeyValuesStartColumn="2" rowKeyValuesStartRow="0" valuesStartColumn="2" valuesStartRow="0" hasFinalRowUsePositionKey="false" hasFinalColumnUsePositionKey="true" />
+    </externalSource>
+    <externalSource name="45e89088-864a-4551-82ec-fe1389ff3689" displayname="Gamma" location="C:\Users\JANAG644\RAFM\RiskAgility FM Project2\RiskAgility FM Project2\WorkingPath\Job 2 180529032305810\Input\T0\45e89088-864a-4551-82ec-fe1389ff3689.tbl" originalLocation="&lt;*project_directory*&gt;Inputs\Book1.xlsx" isComposite="false">
+      <externalSourceStructure hasColumnIndexHeaders="false" hasRowIndexHeaders="false" columnKeyNamesColumn="-1" rowKeyNamesRow="-1" numColumnKeys="1" numRowKeys="1" columnKeyValuesStartColumn="1" rowKeyValuesStartRow="1" valuesStartColumn="1" valuesStartRow="1" hasFinalRowUsePositionKey="false" hasFinalColumnUsePositionKey="false" />
+    </externalSource>
+    <externalSource name="9e9c4cf0-0f78-470c-9e28-6e809ce639b9" displayname="Delta" location="C:\Users\JANAG644\RAFM\RiskAgility FM Project2\RiskAgility FM Project2\WorkingPath\Job 2 180529032305810\Input\T0\9e9c4cf0-0f78-470c-9e28-6e809ce639b9.tbl" originalLocation="&lt;*project_directory*&gt;Inputs\Book1.xlsx" isComposite="false">
+      <externalSourceStructure hasColumnIndexHeaders="false" hasRowIndexHeaders="false" columnKeyNamesColumn="-1" rowKeyNamesRow="-1" numColumnKeys="1" numRowKeys="1" columnKeyValuesStartColumn="1" rowKeyValuesStartRow="1" valuesStartColumn="1" valuesStartRow="1" hasFinalRowUsePositionKey="false" hasFinalColumnUsePositionKey="false" />
+    </externalSource>
+    <externalSource name="2c60e5df-a1b4-40de-9d2d-7d121b83a8a8" displayname="CES with no uses position column key and with default ES" location="C:\Users\JANAG644\RAFM\RiskAgility FM Project2\RiskAgility FM Project2\WorkingPath\Job 2 180529032305810\Input\T0\2c60e5df-a1b4-40de-9d2d-7d121b83a8a8.tbl" originalLocation="CES with no uses position column key and with default ES" isComposite="true">
+      <externalSourceStructure hasColumnIndexHeaders="false" hasRowIndexHeaders="false" columnKeyNamesColumn="-1" rowKeyNamesRow="-1" numColumnKeys="0" numRowKeys="2" columnKeyValuesStartColumn="2" rowKeyValuesStartRow="0" valuesStartColumn="2" valuesStartRow="0" hasFinalRowUsePositionKey="false" hasFinalColumnUsePositionKey="true" />
+    </externalSource>
+  </externalSources>
+  <overlays />
+  <unused_models />
+  <inputVariables>
+    <inputVariable name="Input Page1.ces_with_uses_position_column_key_and_no_default_es" type="2">
+      <validation validationFailureBehavior="0" characterList="0" />
+      <codeVariables>
+        <codeVariable name="ces_with_uses_position_column_key_and_no_default_es" modelObject="default1" modelClass="default1" />
+      </codeVariables>
+      <value>
+        <lookup externalSource="e60f7b5a-da09-468e-82fb-c6f2c1480112" hasColumnKeyNames="False" hasRowKeyNames="False">
+          <keys>
+            <key keyType="Row" externalSourceKey="N/A" usePosition="False" type="2" missing="Error" beforeFirst="Error" afterLast="Error" lookupTermString="Code Variable: ces_row_key_code_var_1">
+              <value>
+                <modelVariable modelObject="" variable="ces_row_key_code_var_1" />
+              </value>
+              <transformations />
+            </key>
+            <key keyType="Row" externalSourceKey="N/A" usePosition="False" type="2" missing="Error" beforeFirst="Error" afterLast="Error" lookupTermString="Code Variable: default1: ces_row_key_code_var_2">
+              <value>
+                <modelVariable modelObject="default1" variable="ces_row_key_code_var_2" />
+              </value>
+              <transformations />
+            </key>
+            <key keyType="Column" externalSourceKey="N/A" usePosition="True" type="1" missing="Error" beforeFirst="Error" afterLast="Error" lookupTermString="Constant: 1">
+              <value>
+                <constant>1</constant>
+              </value>
+              <transformations />
+            </key>
+            <key keyType="Column" externalSourceKey="N/A" usePosition="True" type="1" missing="Error" beforeFirst="Error" afterLast="Error" lookupTermString="Constant: 1">
+              <value>
+                <constant>1</constant>
+              </value>
+              <transformations />
+            </key>
+            <key keyType="Row" externalSourceKey="N/A" usePosition="True" type="1" missing="Error" beforeFirst="Error" afterLast="Error" lookupTermString="Constant: 1">
+              <value>
+                <constant>1</constant>
+              </value>
+              <transformations />
+            </key>
+          </keys>
+        </lookup>
+      </value>
+      <indexVariables default="" />
+    </inputVariable>
+    <inputVariable name="Input Page1.ces_with_no_uses_position_column_key_with_default_es" type="2">
+      <validation validationFailureBehavior="0" characterList="0" />
+      <codeVariables>
+        <codeVariable name="ces_with_no_uses_position_column_key_with_default_es" modelObject="default1" modelClass="default1" />
+      </codeVariables>
+      <value>
+        <lookup externalSource="2c60e5df-a1b4-40de-9d2d-7d121b83a8a8" hasColumnKeyNames="False" hasRowKeyNames="False">
+          <keys>
+            <key keyType="Row" externalSourceKey="N/A" usePosition="False" type="2" missing="RetryWith" beforeFirst="RetryWith" afterLast="RetryWith" lookupTermString="Code Variable: default1: ces_row_key_code_var_3">
+              <value>
+                <modelVariable modelObject="default1" variable="ces_row_key_code_var_3" />
+              </value>
+              <missingFallbackValue>
+                <constant>g</constant>
+              </missingFallbackValue>
+              <beforeFirstFallbackValue>
+                <constant>g</constant>
+              </beforeFirstFallbackValue>
+              <afterLastFallbackValue>
+                <constant>g</constant>
+              </afterLastFallbackValue>
+              <transformations />
+            </key>
+            <key keyType="Row" externalSourceKey="N/A" usePosition="False" type="2" missing="RetryWith" beforeFirst="RetryWith" afterLast="RetryWith" lookupTermString="Code Variable: ces_row_key_code_var_4">
+              <value>
+                <modelVariable modelObject="" variable="ces_row_key_code_var_4" />
+              </value>
+              <missingFallbackValue>
+                <constant>h</constant>
+              </missingFallbackValue>
+              <beforeFirstFallbackValue>
+                <constant>h</constant>
+              </beforeFirstFallbackValue>
+              <afterLastFallbackValue>
+                <constant>h</constant>
+              </afterLastFallbackValue>
+              <transformations />
+            </key>
+            <key keyType="Column" externalSourceKey="N/A" usePosition="True" type="1" missing="Error" beforeFirst="Error" afterLast="Error" lookupTermString="Constant: 1">
+              <value>
+                <constant>1</constant>
+              </value>
+              <transformations />
+            </key>
+            <key keyType="Column" externalSourceKey="N/A" usePosition="False" type="2" missing="Error" beforeFirst="Error" afterLast="Error" lookupTermString="Constant: col lookup term 1">
+              <value>
+                <constant>col lookup term 1</constant>
+              </value>
+              <transformations />
+            </key>
+            <key keyType="Row" externalSourceKey="N/A" usePosition="False" type="2" missing="Error" beforeFirst="Error" afterLast="Error" lookupTermString="Constant: row lookup term 1">
+              <value>
+                <constant>row lookup term 1</constant>
+              </value>
+              <transformations />
+            </key>
+          </keys>
+        </lookup>
+      </value>
+      <indexVariables default="" />
+    </inputVariable>
+  </inputVariables>
+  <product modelclassname="ProjectVariables" group="0" recno="0" readfile="0">
+    <individual />
+    <columns />
+    <filterset />
+    <default />
+    <overlays />
+    <non-default />
+    <models />
+  </product>
+  <product modelclassname="default1" group="0" recno="0" readfile="0">
+    <individual>
+      <model uniquename="default1" />
+    </individual>
+    <columns>
+      <column name="initial_formula" slide="0" />
+    </columns>
+    <filterset>
+      <model uniquename="default1" filtertype="1" />
+    </filterset>
+    <default>
+      <variable name="ces_row_key_code_var_1" type="2" source="4">0</variable>
+      <variable name="ces_row_key_code_var_2" type="2" source="4">0</variable>
+      <variable name="ces_row_key_code_var_3" type="2" source="4">0</variable>
+      <variable name="ces_row_key_code_var_4" type="2" source="4">0</variable>
+      <variable name="ces_with_no_uses_position_column_key_with_default_es" type="2" source="4">0</variable>
+      <variable name="ces_with_uses_position_column_key_and_no_default_es" type="2" source="4">0</variable>
+      <variable name="initial_variable" type="1" source="4">0</variable>
+    </default>
+    <overlays />
+    <ddf />
+    <models>
+      <model name="default1" uniquename="default1" type="StandAlone" isrebasesubmodel="N" isrebaseclone="N" outputtype="All" arraytotal="GroupTotals">
+        <inputmanagervariables>
+          <variable name="initial_variable" />
+          <variable name="ces_row_key_code_var_1" />
+          <variable name="ces_row_key_code_var_2" />
+          <variable name="ces_row_key_code_var_3" />
+          <variable name="ces_row_key_code_var_4" />
+          <variable name="ces_with_uses_position_column_key_and_no_default_es" />
+          <variable name="ces_with_no_uses_position_column_key_with_default_es" />
+        </inputmanagervariables>
+      </model>
+    </models>
+  </product>
+  <wildcard name="DEFAULT">
+    <keyword name="user_id">JANAG644</keyword>
+    <keyword name="project">RiskAgility FM Project2</keyword>
+    <keyword name="project_directory">C:\Users\JANAG644\RAFM\RiskAgility FM Project2\RiskAgility FM Project2\</keyword>
+    <keyword name="job_name">Job 2</keyword>
+    <keyword name="projection">Projection1</keyword>
+    <keyword name="column_output_directory">C:\Users\JANAG644\RAFM\RiskAgility FM Project2\RiskAgility FM Project2\output\Job 2\</keyword>
+  </wildcard>
+  <overrideValues />
+</assumptionset>

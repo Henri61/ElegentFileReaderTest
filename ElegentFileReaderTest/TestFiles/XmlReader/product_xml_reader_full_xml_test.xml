@@ -1,0 +1,221 @@
+<assumptionset topmodelclassname="default1" topmodelname="default1">
+  <externalSources>
+    <externalSource name="70678680-f4a3-483c-b096-bdec28b13694" displayname="Excel File: Book1.xlsm (Sheet4)" location="C:\Users\JANAG644\RAFM\RiskAgility FM Project8\RiskAgility FM Project8\WorkingPath\Job 1 180525060404971\Input\T0\70678680-f4a3-483c-b096-bdec28b13694.tbl" originalLocation="C:\RiskAgility FM\Book1.xlsm" isComposite="false">
+      <externalSourceStructure hasColumnIndexHeaders="false" hasRowIndexHeaders="false" columnKeyNamesColumn="-1" rowKeyNamesRow="-1" numColumnKeys="1" numRowKeys="1" columnKeyValuesStartColumn="1" rowKeyValuesStartRow="1" valuesStartColumn="1" valuesStartRow="1" hasFinalRowUsePositionKey="false" hasFinalColumnUsePositionKey="false" />
+    </externalSource>
+    <externalSource name="74bf9755-8d54-43f5-a2d8-869580428291" displayname="Excel File: Book2.xlsx (Sheet1)" location="C:\Users\JANAG644\RAFM\RiskAgility FM Project8\RiskAgility FM Project8\WorkingPath\Job 1 180525060404971\Input\T0\74bf9755-8d54-43f5-a2d8-869580428291.tbl" originalLocation="C:\RiskAgility FM\Book2.xlsx" isComposite="false">
+      <externalSourceStructure hasColumnIndexHeaders="false" hasRowIndexHeaders="false" columnKeyNamesColumn="-1" rowKeyNamesRow="-1" numColumnKeys="1" numRowKeys="1" columnKeyValuesStartColumn="1" rowKeyValuesStartRow="1" valuesStartColumn="1" valuesStartRow="1" hasFinalRowUsePositionKey="false" hasFinalColumnUsePositionKey="false" />
+    </externalSource>
+    <externalSource name="3c129c48-93ec-4a73-86ca-ad68a79fd1d9" displayname="Composite External Source1" location="C:\Users\JANAG644\RAFM\RiskAgility FM Project8\RiskAgility FM Project8\WorkingPath\Job 1 180525060404971\Input\T0\3c129c48-93ec-4a73-86ca-ad68a79fd1d9.tbl" originalLocation="Composite External Source1" isComposite="true">
+      <externalSourceStructure hasColumnIndexHeaders="false" hasRowIndexHeaders="false" columnKeyNamesColumn="-1" rowKeyNamesRow="-1" numColumnKeys="0" numRowKeys="1" columnKeyValuesStartColumn="1" rowKeyValuesStartRow="0" valuesStartColumn="1" valuesStartRow="0" hasFinalRowUsePositionKey="false" hasFinalColumnUsePositionKey="true" />
+    </externalSource>
+    <externalSource name="8cb9a5d9-a2ed-44db-b2c0-a1ac7fed1fbb" displayname="Plain Text: temp.tbl" location="C:\Users\JANAG644\RAFM\RiskAgility FM Project8\RiskAgility FM Project8\WorkingPath\Job 1 180525060404971\Input\T0\8cb9a5d9-a2ed-44db-b2c0-a1ac7fed1fbb.tbl" originalLocation="C:\RiskAgility FM\temp.tbl" isComposite="false" />
+  </externalSources>
+  <overlays />
+  <unused_models />
+  <inputVariables>
+    <inputVariable name="Input Page1.var_set_in_im" type="1">
+      <validation validationFailureBehavior="0" />
+      <codeVariables>
+        <codeVariable name="var_set_in_im" modelObject="default1" modelClass="default1" />
+      </codeVariables>
+      <value>
+        <default />
+      </value>
+      <indexVariables default="" />
+    </inputVariable>
+    <inputVariable name="Input Page1.another_variable" type="1">
+      <validation validationFailureBehavior="0" />
+      <codeVariables>
+        <codeVariable name="another_variable" modelObject="default1" modelClass="default1" />
+      </codeVariables>
+      <value>
+        <lookup externalSource="3c129c48-93ec-4a73-86ca-ad68a79fd1d9" hasColumnKeyNames="False" hasRowKeyNames="False">
+          <keys>
+            <key keyType="Row" externalSourceKey="N/A" usePosition="False" type="2" missing="Error" beforeFirst="Error" afterLast="Error" lookupTermString="Code Variable: mo2: char_var_1">
+              <value>
+                <modelVariable modelObject="default1|mo2" variable="char_var_1" />
+              </value>
+              <transformations />
+            </key>
+            <key keyType="Column" externalSourceKey="N/A" usePosition="True" type="1" missing="Error" beforeFirst="Error" afterLast="Error" lookupTermString="Constant: 1">
+              <value>
+                <constant>1</constant>
+              </value>
+              <transformations />
+            </key>
+            <key keyType="Column" externalSourceKey="N/A" usePosition="False" type="2" missing="Error" beforeFirst="Error" afterLast="Error" lookupTermString="Constant: a column lookup">
+              <value>
+                <constant>a column lookup</constant>
+              </value>
+              <transformations />
+            </key>
+            <key keyType="Row" externalSourceKey="N/A" usePosition="False" type="2" missing="Error" beforeFirst="Error" afterLast="Error" lookupTermString="Constant: a row lookup">
+              <value>
+                <constant>a row lookup</constant>
+              </value>
+              <transformations />
+            </key>
+          </keys>
+        </lookup>
+      </value>
+      <indexVariables default="" />
+    </inputVariable>
+  </inputVariables>
+  <product modelclassname="ProjectVariables" group="0" recno="0" readfile="0">
+    <individual />
+    <columns />
+    <filterset />
+    <default>
+      <variable name="_char_proj_var" type="2">0</variable>
+      <variable name="_fp_array_proj_var" type="2">0</variable>
+      <variable name="_fp_proj_var" type="1">0</variable>
+      <variable name="_int_array_proj_var" type="2">0</variable>
+      <variable name="_int_proj_var" type="0">0</variable>
+    </default>
+    <overlays />
+    <non-default>
+      <variable name="_fp_proj_var">1</variable>
+      <variable name="_int_proj_var">2</variable>
+      <variable name="_char_proj_var">0</variable>
+      <variable name="_fp_array_proj_var">3</variable>
+      <variable name="_int_array_proj_var">4</variable>
+    </non-default>
+    <models />
+  </product>
+  <product modelclassname="default1" group="0" recno="0" readfile="1">
+    <individual>
+      <model uniquename="default1">
+        <scalars>
+          <field width="10" dec="0" period="0" type="N" name="a_scalar">a_scalar</field>
+        </scalars>
+        <columns>
+          <field width="10" dec="0" period="1" type="N" name="initial_formula">initial_formula_1</field>
+          <field width="10" dec="0" period="3" type="N" name="initial_formula">initial_formula_3</field>
+          <field width="10" dec="0" period="5" type="N" name="initial_formula">initial_formula_5</field>
+          <field width="10" dec="0" period="7" type="N" name="initial_formula">initial_formula_7</field>
+        </columns>
+      </model>
+    </individual>
+    <columns>
+      <column name="initial_formula" slide="0" />
+    </columns>
+    <filterset>
+      <model uniquename="default1" filtertype="1" />
+    </filterset>
+    <default>
+      <variable name="another_variable" type="1" source="4">0</variable>
+      <variable name="initial_variable" type="1" source="4">0</variable>
+      <variable name="var_set_in_im" type="1" source="4">0</variable>
+    </default>
+    <overlays />
+    <ddf />
+    <models>
+      <model name="default1" uniquename="default1" type="StandAlone" isrebasesubmodel="N" isrebaseclone="N" outputtype="All" arraytotal="GroupTotals">
+        <variable name="ms_mo3_readfile">8cb9a5d9-a2ed-44db-b2c0-a1ac7fed1fbb</variable>
+        <inputmanagervariables>
+          <variable name="another_variable" />
+          <variable name="var_set_in_im" />
+        </inputmanagervariables>
+      </model>
+    </models>
+  </product>
+  <product modelclassname="mc2" group="0" recno="0" readfile="0">
+    <individual>
+      <model uniquename="default1|mo2">
+        <columns>
+          <field width="10" dec="0" period="0" type="N" name="initial_formula">initial_formula_0</field>
+          <field width="10" dec="0" period="0" type="N" name="second_column">second_column_0</field>
+        </columns>
+        <variables>
+          <field width="10" dec="0" period="0" type="N" name="char_var_2">char_var_2</field>
+        </variables>
+      </model>
+      <model uniquename="default1|mo3" />
+    </individual>
+    <columns>
+      <column name="initial_formula" slide="0" />
+      <column name="second_column" slide="-1" />
+    </columns>
+    <filterset>
+      <model uniquename="default1|mo2" filtertype="0">
+        <periods>
+          <period label="Period Label1" subscript="1" from="3" to="4" increment="2" stop="100" />
+        </periods>
+        <columns file="1">
+          <column name="init_fml" printed="Y" sum_last="L" group="S" />
+          <column name="second_column" printed="Y" sum_last="S" group="A" />
+        </columns>
+      </model>
+      <model uniquename="default1|mo3" filtertype="1" />
+    </filterset>
+    <default>
+      <variable name="char_var_1" type="2" source="4">0</variable>
+      <variable name="char_var_2" type="2" source="4">0</variable>
+      <variable name="initial_variable" type="1" source="4">0</variable>
+    </default>
+    <overlays />
+    <ddf>
+      <variable name="char_var_1" fieldname="cv1" />
+      <variable name="char_var_2" fieldname="cv2" />
+      <variable name="char_var_1" fieldname="a" />
+      <variable name="char_var_2" fieldname="b" />
+    </ddf>
+    <models>
+      <model name="mo2" uniquename="default1|mo2" type="StandAlone" isrebasesubmodel="N" isrebaseclone="N" outputtype="FilterSet" arraytotal="GroupTotals">
+        <inputmanagervariables>
+          <variable name="initial_variable" />
+          <variable name="char_var_1" />
+          <variable name="char_var_2" />
+        </inputmanagervariables>
+      </model>
+      <model name="mo3" uniquename="default1|mo3" type="ArrayDataDriven" isrebasesubmodel="N" isrebaseclone="N" outputtype="All" arraytotal="GroupTotals" groupexpr="Group Expr mo3">
+        <ArrayDataDrivenSearchVariables>
+          <variable name="char_var_1" />
+          <variable name="char_var_2" />
+        </ArrayDataDrivenSearchVariables>
+        <inputmanagervariables>
+          <variable name="initial_variable" />
+          <variable name="char_var_1" />
+          <variable name="char_var_2" />
+        </inputmanagervariables>
+      </model>
+    </models>
+  </product>
+  <product modelclassname="mc4" group="0" recno="0" readfile="1">
+    <individual />
+    <columns>
+      <column name="initial_formula" slide="0" />
+    </columns>
+    <filterset>
+      <model uniquename="default1|mo4[&quot;element1&quot;]" filtertype="2" />
+    </filterset>
+    <default>
+      <variable name="initial_variable" type="1" source="4">0</variable>
+    </default>
+    <overlays />
+    <ddf />
+    <models>
+      <model name="mo4[&quot;element1&quot;]" uniquename="default1|mo4~element1" type="ArrayFixed" isrebasesubmodel="N" isrebaseclone="N" outputtype="None" arraytotal="GroupTotals">
+        <inputmanagervariables>
+          <variable name="initial_variable" />
+        </inputmanagervariables>
+      </model>
+    </models>
+  </product>
+  <wildcard name="DEFAULT">
+    <keyword name="user_id">JANAG644</keyword>
+    <keyword name="project">RiskAgility FM Project8</keyword>
+    <keyword name="project_directory">C:\Users\JANAG644\RAFM\RiskAgility FM Project8\RiskAgility FM Project8\</keyword>
+    <keyword name="job_name">Job 1</keyword>
+    <keyword name="projection">Projection1</keyword>
+    <keyword name="column_output_directory">C:\Users\JANAG644\RAFM\RiskAgility FM Project8\RiskAgility FM Project8\output\Job 1\</keyword>
+  </wildcard>
+  <overrideValues>
+    <overrideValue>
+      <GoalSeekVariableModelObjectName>default1</GoalSeekVariableModelObjectName>
+      <GoalSeekVariableName>var_set_in_im</GoalSeekVariableName>
+      <OverrideParameterFile>C:\Users\JANAG644\RAFM\RiskAgility FM Project8\RiskAgility FM Project8\WorkingPath\Job 1 180525060404971\WD\Projection1~&lt;*proj_set_loop_num*&gt;~var_set_in_im~override_values.csv</OverrideParameterFile>
+    </overrideValue>
+  </overrideValues>
+</assumptionset>
