@@ -22,7 +22,7 @@ size_t cc[] = { 0,0,0,0,0,0,0,0,0,0 };
 
 TEST(ElegentFileReader, avxing) {
     size_t n;
-    std::cout << "Enter n <= 10 ";
+    std::cout << "Testing AVX  - Run a small loop to debug \nEnter n <= 10 ";
     std::cin >> n;
     for (size_t i = 0; i < n; ++i) {
         sums[i] += (d[i] == NO_AVG) ? 0 : d[i];
